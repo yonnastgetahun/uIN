@@ -9,7 +9,7 @@ enum PayloadCoder {
         // Use a proper URL scheme that iMessage preserves across devices
         var components = URLComponents()
         components.scheme = "https"
-        components.host = "flokt.app"
+        components.host = "useuin.com"
         components.path = "/invite"
         components.queryItems = [URLQueryItem(name: "d", value: base64)]
         return components.url
